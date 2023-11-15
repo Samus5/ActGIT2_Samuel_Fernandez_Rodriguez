@@ -1,37 +1,5 @@
 /* Aqui ponemos los efectos de los formularios cuando le haces click, el color segun si es correcto o incorrecta*/
 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 30px 0;
-    box-sizing: border-box;
-    border: 3px solid #f01212;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-    
-  }
-  
-  input[type=text]:focus {
-    border: 3px solid #59fd39;
-  }
-
-input:invalid{
-  border: 4px solid orange;
-
-}
-input:valid{
-  border: 8px solid aqua;
-}
-.cbox1 {
-  font-size: 20px;
-  color: white;
-}
-.custom-checkbox-label {
-  color: white;
-  font-size: 20px; 
-}
-
 
  
 
@@ -78,16 +46,6 @@ header {
   /*fin de configuracion del menu */
  
 
-/*Centradores de texto: Son divs padres/hijos. los padres contendran 
-las imagenes de fondo y los hijos el texto y estos se adecuaran a la posicion inicial de los padres */
-
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
 /*Ajustes de titulos, tamaños de imagenes, divs e inputs y colorines*/
 h1{
     font-size: 40px;
@@ -112,80 +70,16 @@ footer{
     font-size: 20px
 }
 
-
-
-.secund{
-  color: #70d6ff;
-}
-
-img{
-    width: 1920px;
-    height: 1020px;
-}
-
-
-
-.centrado2 h2{
-  justify-content: center;  
-  text-align: center;
-  position: relative;
-}  
-
-div{
-    text-align: center;
-}
-
-
-.panel2 div{
-  text-align: center;
-}
-
-.centrado2{
-  position: absolute;
-  text-align:center;
-  left: 150px;
-  bottom:-900px;
-}
-
-.centrador3{
-  position: absolute;
-  text-align: center;
-  right: 700px;
-  bottom: -1900px;
-
-}
-
-input[type="radio"] {
-  color: white;
-  font-size: 40px;
-}
-
 p{
   color: white;
   font-size: 30px;
 }
-.comida{
-  color: #F77F00;
-  font-size: 30px;
-}
-.musica{
-  color: #D62828ed;
-  font-size: 30px;
-
-}
-.aficiones{
-color: #05B2DC;
-font-size: 30px;
-
-}
-.titulito{
-  color: rgb(240, 74, 198);
-}
 
 h4{
-  position: absolute;
-  top: 900px;
-  left: 200px;
-  color: white;
-}
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    color: white;
+  }
+  
 
