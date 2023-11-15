@@ -1,0 +1,191 @@
+/* Aqui ponemos los efectos de los formularios cuando le haces click, el color segun si es correcto o incorrecta*/
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    box-sizing: border-box;
+    border: 3px solid #f01212;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #59fd39;
+  }
+
+input:invalid{
+  border: 4px solid orange;
+
+}
+input:valid{
+  border: 8px solid aqua;
+}
+.cbox1 {
+  font-size: 20px;
+  color: white;
+}
+.custom-checkbox-label {
+  color: white;
+  font-size: 20px; 
+}
+
+
+ 
+
+ /* Configuracion del menu, para que sea fijo, o al poner el raton cambie de color,
+  y que este situado a la izquierda de la pagina */
+header {
+    background:#2dfc37;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display:flex;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: black;
+  }
+ 
+ .meme{
+    font-size: 20px;
+    color: black;
+    left: 10px;
+    position:absolute ;
+    top: 200px;
+}
+  /*fin de configuracion del menu */
+ 
+
+/*Centradores de texto: Son divs padres/hijos. los padres contendran 
+las imagenes de fondo y los hijos el texto y estos se adecuaran a la posicion inicial de los padres */
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+/*Ajustes de titulos, tamaños de imagenes, divs e inputs y colorines*/
+h1{
+    font-size: 40px;
+    color: #2dfc37;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    font-size: 20px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+footer{
+    background: black;
+    width: 100%;
+    position:absolute;
+    color: white;
+    bottom: 1px;
+    text-align: center;
+    height: 50px;
+    font-size: 20px
+}
+
+
+
+.secund{
+  color: #70d6ff;
+}
+
+img{
+    width: 1920px;
+    height: 1020px;
+}
+
+
+
+.centrado2 h2{
+  justify-content: center;  
+  text-align: center;
+  position: relative;
+}  
+
+div{
+    text-align: center;
+}
+
+
+.panel2 div{
+  text-align: center;
+}
+
+.centrado2{
+  position: absolute;
+  text-align:center;
+  left: 150px;
+  bottom:-900px;
+}
+
+.centrador3{
+  position: absolute;
+  text-align: center;
+  right: 700px;
+  bottom: -1900px;
+
+}
+
+input[type="radio"] {
+  color: white;
+  font-size: 40px;
+}
+
+p{
+  color: white;
+  font-size: 30px;
+}
+.comida{
+  color: #F77F00;
+  font-size: 30px;
+}
+.musica{
+  color: #D62828ed;
+  font-size: 30px;
+
+}
+.aficiones{
+color: #05B2DC;
+font-size: 30px;
+
+}
+.titulito{
+  color: rgb(240, 74, 198);
+}
+
+h4{
+  position: absolute;
+  top: 900px;
+  left: 200px;
+  color: white;
+}
+
