@@ -41,7 +41,7 @@ header {
     color: black;
     left: 10px;
     position:absolute ;
-    top: 200px;
+    top: 250px;
 }
   /*fin de configuracion del menu */
  
@@ -81,5 +81,8 @@ h4{
     left: 200px;
     color: white;
   }
-  
+ img{
+  position: absolute;
+  top: 250px;
+ } 
 
